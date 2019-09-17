@@ -50,6 +50,8 @@ C4 模型由一系列分层的软件架构图组成，这些架构图用于描�
 
 ```
 @startuml
+!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+
 actor User
 participant "First Class" as first
 participant "Second Class" as second
@@ -75,10 +77,9 @@ first --> User: Done
 deactivate first
 
 @enduml
-
 ```
 
-![时序图](https://www.plantuml.com/plantuml/img/PP713e8m38RlVOg6Eo_0mP10F7dI6CyBL5b4XbinyUrjsLJGP65Tz_Vlrr46DfwdMm-cOUVn6CZ3A2dRsD4CZDdM-i1OzIQ434t0ivxNaWCrRcWNcZ0drgATMTb8m03Q3lDDD2smTYVdhufY7uOfzHgSXDvUEWP4xcn0MIPUebu2IVSvW9WKnuXGOEL9dVPqdqYyFjO9CMvQe43_115JlvWlN5LKku6W5LFldb7NqhhkRVuTC64agdPPaO3I05AYRwD0SvUV9u5IHfQ_zW80)
+![时序图](https://www.plantuml.com/plantuml/img/PP4nJyGm38Nt_0fpUzk5gGCwwKvCJ234759pZKYJaZX0_prs4w05gMgTnEzxp-anaOwK9wUkh3Sk3vYZWv5eJdtNHVtHNYoD-JadZ2PuGa-j2LFtcRLVi9kTzg9k4YqE6tFTJJeHniw4YEqiNAKDXGYF350pUrbZPnR1uTR6H71oEgK3w0GlijwtF21x3fkUj6xic-xq3iC5AILsqDmKQ0_dy1JYgqInxvgmUld0PRINaHG0ZJO1FxeSWXmgPFUrK6MJYIL23wU8Ghh7jupC-a7NYEKZ0WdqFq69AMzeDbHfEWUFQc1e34lf6t2l-uR_3bXZr5J3Lb43rG5O8dSZWLQNFrUYZZmo_xOl)
 
 
 ### 2. 类图
